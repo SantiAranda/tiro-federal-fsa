@@ -16,7 +16,7 @@ dependencies = [
     "uvicorn[standard]>=0.30.0",
 
     # Validación de datos y configuraciones
-    "pydantic>=2.7.0",
+    "pydantic[email]>=2.7.0",
     "pydantic-settings>=2.2.0",
 
     # ORM y Persistencia (SQLite)
