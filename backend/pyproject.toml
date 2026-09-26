@@ -22,6 +22,9 @@ dependencies = [
     # ORM y Persistencia (SQLite)
     "sqlalchemy>=2.0.30",
 
+    # Migraciones de base de datos
+    "alembic>=1.20.0",
+
     # Autenticación, Hashing y Formularios
     "python-jose[cryptography]>=3.3.0",
     "passlib[bcrypt]>=1.7.4",
